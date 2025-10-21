@@ -24,7 +24,9 @@ Los estudiantes de derecho y abogados junior enfrentan uno de los desafíos más
 
 ---
 
-## 👩‍🎓 Usuario Objetivo
+## 👥 Usuarios Objetivo
+
+### **👨‍🎓 Usuario Primario: Estudiante**
 
 **María**, estudiante de 5.º año de Derecho, debe preparar una defensa inicial en **48 horas**.
 
@@ -41,10 +43,36 @@ Los estudiantes de derecho y abogados junior enfrentan uno de los desafíos más
 - 5 horas intentando conectar todo
 - **Resultado a las 2 AM:** Sin línea argumentativa clara
 
-**Necesita:**
-- Herramienta que integre texto, video e información legal en **minutos, no horas**.
-- Identificar líneas de defensa sin investigación manual exhaustiva.
-- Precedentes jurídicos relevantes con explicación de pertinencia.
+**Necesidades:**
+- Herramienta que integre texto, video e información legal en **minutos, no horas**
+- Identificar líneas de defensa sin investigación manual exhaustiva
+- Precedentes jurídicos relevantes con explicación de pertinencia
+- **Cuota:** 10 casos/día (suficiente para práctica académica)
+
+---
+
+### **⚖️ Usuario Secundario: Profesional**
+
+**Carlos**, abogado junior en bufete pequeño, necesita preparar casos rápidamente.
+
+**Diferencias con Estudiante:**
+- Trabaja con **casos reales anonimizados** (no solo simulados)
+- Necesita **exportación de informes PDF** profesionales
+- Mayor volumen de casos: **50 casos/día**
+- Requiere mayor nivel de precisión y detalle
+
+**Uso típico:**
+- Pre-análisis rápido antes de reunión con cliente
+- Búsqueda de precedentes para fundamentar estrategia
+- Generación de reportes para revisión del socio senior
+
+---
+
+### **🔧 Posible Usuario Futuro: Administrador**
+*(Fase 2-3 del roadmap)*
+- Panel de métricas del sistema
+- Gestión de usuarios y cuotas
+- Analytics de uso y performance
 
 ---
 

@@ -88,12 +88,45 @@ Saber **qué construir primero** para entregar un MVP funcional de PEER-LEGAL-AI
 
 ---
 
+### **RF-09: Autenticación y gestión de usuarios**
+
+- **Descripción:** Sistema de login con roles diferenciados (Estudiante, Profesional).
+- **Entrada:** Email, contraseña, tipo de usuario.
+- **Salida:** Sesión autenticada con permisos según rol.
+- **Prioridad:** **Must**
+- **Dependencia:** Ninguna
+
+---
+
+### **RF-10: Control de cuotas por rol**
+
+- **Descripción:** Aplicar límites de casos procesados según tipo de usuario.
+- **Entrada:** Usuario autenticado + intento de crear caso.
+- **Salida:** Validación de cuota disponible (Estudiante: 10/día | Profesional: 50/día).
+- **Prioridad:** **Must**
+- **Dependencia:** RF-09
+
+---
+
+### **RF-11: Perfiles diferenciados por rol**
+
+- **Descripción:** Funcionalidades adicionales según tipo de usuario.
+- **Entrada:** Rol del usuario.
+- **Salida:** 
+  - **Estudiante:** Acceso básico, casos simulados
+  - **Profesional:** Exportación PDF avanzada, casos anonimizados, mayor cuota
+  - *(Futuro: Panel Admin para métricas del sistema)*
+- **Prioridad:** **Should**
+- **Dependencia:** RF-09
+
+---
+
 ## 📊 Resumen de Prioridades
 
 | Prioridad | Requerimientos | Total |
 |-----------|----------------|-------|
-| **Must** | RF-01, RF-02, RF-03, RF-04, RF-05, RF-07 | 6 |
-| **Should** | RF-06 | 1 |
+| **Must** | RF-01, RF-02, RF-03, RF-04, RF-05, RF-07, RF-09, RF-10 | 8 |
+| **Should** | RF-06, RF-11 | 2 |
 | **Could** | RF-08 | 1 |
 
 ---

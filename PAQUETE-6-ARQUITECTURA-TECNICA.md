@@ -134,60 +134,15 @@ $precedents = MCPService::searchJurisprudence([
 
 ---
 
-## 🗄️ Base de Datos (Supabase PostgreSQL)
+## 🗄️ Base de Datos (Supabase PostgreSQL + pgvector)
 
-### **Tabla: cases**
-```sql
-CREATE TABLE cases (
-  id UUID PRIMARY KEY,
-  user_id UUID NOT NULL,
-  title VARCHAR(500),
-  description TEXT,
-  legal_area VARCHAR(100),
-  created_at TIMESTAMP
-);
-```
+**Estructura simplificada:**
+- `cases` - Casos ingresados por usuarios
+- `evidence` - Archivos multimedia asociados
+- `jurisprudence` - Precedentes legales con embeddings vectoriales (pgvector)
+- `case_analysis` - Resultados del análisis generado por IA
 
-### **Tabla: evidence**
-```sql
-CREATE TABLE evidence (
-  id UUID PRIMARY KEY,
-  case_id UUID REFERENCES cases(id),
-  file_type VARCHAR(20), -- 'image', 'video'
-  file_url TEXT,
-  visual_analysis JSONB, -- Resultado del Agente Visual
-  created_at TIMESTAMP
-);
-```
-
-### **Tabla: jurisprudence (+ pgvector)**
-```sql
-CREATE TABLE jurisprudence (
-  id UUID PRIMARY KEY,
-  case_name VARCHAR(500),
-  court VARCHAR(200),
-  decision_date DATE,
-  legal_area VARCHAR(100),
-  full_text TEXT,
-  embedding VECTOR(1536), -- OpenAI embeddings
-  created_at TIMESTAMP
-);
-
--- Índice para búsqueda semántica
-CREATE INDEX ON jurisprudence USING ivfflat (embedding vector_cosine_ops);
-```
-
-### **Tabla: case_analysis**
-```sql
-CREATE TABLE case_analysis (
-  id UUID PRIMARY KEY,
-  case_id UUID REFERENCES cases(id),
-  summary JSONB,
-  precedents JSONB,
-  argument_lines JSONB,
-  created_at TIMESTAMP
-);
-```
+**Tecnología clave:** pgvector para búsqueda semántica de jurisprudencia mediante embeddings.
 
 ---
 

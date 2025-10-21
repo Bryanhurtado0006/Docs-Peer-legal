@@ -81,6 +81,31 @@ Garantizar **seguridad, privacidad y performance** adecuados para PEER-LEGAL-AI.
 
 ---
 
+### **RNF-09: Control de Acceso por Roles**
+
+- **Descripción:** Sistema de permisos diferenciados según tipo de usuario.
+- **Implementación:**
+  - **Estudiante:** Solo casos simulados, 10 casos/día
+  - **Profesional:** Casos anonimizados, 50 casos/día, exportación PDF
+  - *(Futuro: Admin con acceso a métricas)*
+- **Objetivo:** Seguridad y separación de recursos por perfil.
+
+---
+
+### **RNF-10: Límites de Recursos por Rol**
+
+- **Descripción:** Cuotas diferenciadas según tipo de usuario.
+- **Especificación:**
+
+| Rol | Casos/día | Almacenamiento | Prioridad Procesamiento |
+|-----|-----------|----------------|-------------------------|
+| Estudiante | 10 | 500 MB | Normal |
+| Profesional | 50 | 5 GB | Alta |
+
+- **Validación:** Sistema bloquea casos adicionales al exceder cuota diaria.
+
+---
+
 ## ⚠️ Restricciones del Sistema
 
 | Restricción | Descripción |
@@ -104,6 +129,9 @@ Garantizar **seguridad, privacidad y performance** adecuados para PEER-LEGAL-AI.
 - [ ] IDs de usuario anónimos (UUIDs)
 - [ ] Uptime monitoreado y > 95%
 - [ ] Test de usabilidad con 3+ usuarios completado
+- [ ] Sistema de roles implementado (Estudiante, Profesional)
+- [ ] Cuotas por rol funcionando correctamente
+- [ ] Validación de límites diarios por usuario
 
 ---
 
@@ -111,7 +139,7 @@ Garantizar **seguridad, privacidad y performance** adecuados para PEER-LEGAL-AI.
 
 | Prioridad | Requerimientos |
 |-----------|----------------|
-| **Crítico** | RNF-01, RNF-02, RNF-03 |
+| **Crítico** | RNF-01, RNF-02, RNF-03, RNF-09, RNF-10 |
 | **Importante** | RNF-05, RNF-06, RNF-08 |
 | **Deseable** | RNF-04, RNF-07 |
 
