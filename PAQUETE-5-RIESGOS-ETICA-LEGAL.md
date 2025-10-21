@@ -16,8 +16,8 @@ El dominio jurídico es **sensible** y requiere controles especiales sobre uso, 
 - **Mitigación:**
   - Disclaimer visible: "Solo casos hipotéticos o anonimizados"
   - Validación manual de casos en fase piloto
-  - No almacenar texto completo, solo metadatos
-  - Política de eliminación automática de datos después de 30 días
+  - Almacenamiento temporal durante análisis, eliminación automática después de 30 días
+  - Solo se mantienen metadatos agregados (sin contenido sensible) para métricas del sistema
 
 ---
 

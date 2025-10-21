@@ -23,6 +23,8 @@ Este repositorio contiene la documentación del MVP de PEER-LEGAL-AI desarrollad
 
 - **🚀 ROAD-MAP/** - Roadmap de producto con evolución de autonomía del asistente IA (L3 → L5+). Incluye 4 fases de desarrollo desde MVP hasta expansión regional con métricas de éxito por fase.
 
+- **🎨 Mockups/** - Prototipos de interfaz UI/UX generados con Vercel v0. Incluye mockups de las 7 pantallas principales del MVP basados en análisis del reto y casos de uso de María y Carlos.
+
 ---
 
 ## 🎯 Descripción Rápida

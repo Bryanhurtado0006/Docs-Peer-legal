@@ -16,9 +16,10 @@ Este roadmap muestra la maduración progresiva de PEER-LEGAL-AI desde un MVP fun
 - ✅ Búsqueda semántica de jurisprudencia (pgvector)
 - ✅ 4 Agentes A2A (Coordinador, Visual, Jurisprudencia, Argumentos)
 - ✅ Generación de 2-3 líneas argumentales
+- ✅ Sistema de roles: Estudiante (10 casos/día) | Profesional (50 casos/día)
 
 ### Métricas de Éxito:
-- 50 casos procesados | 80% satisfacción | < 2 min análisis
+- 50 casos procesados | 80% satisfacción | < 2 min análisis | 2 roles activos
 
 ---
 
@@ -28,7 +29,7 @@ Este roadmap muestra la maduración progresiva de PEER-LEGAL-AI desde un MVP fun
 
 ### Nuevas Funcionalidades:
 - ✅ Análisis de video avanzado (eventos temporales)
-- ✅ Generación de informes PDF/Word
+- ✅ Generación de informes PDF/Word (Profesional: branding avanzado)
 - ✅ Integración con bases oficiales (Relatoría, Corte Constitucional)
 - ✅ Dashboard con métricas del caso
 - ✅ IA recomienda línea argumental más fuerte

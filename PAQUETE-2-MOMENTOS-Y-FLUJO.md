@@ -6,11 +6,13 @@ Documentar los **momentos clave del reto** (proceso de uso) y el **flujo de inte
 
 ---
 
-## ⚖️ Personaje Principal
+## ⚖️ Personajes Principales
 
 **María**, estudiante de 5.º año de Derecho, debe preparar una defensa inicial en **48 horas**.
 
 Usa **PEER-LEGAL-AI** para analizar un caso práctico que incluye texto y video de un accidente de tránsito con testimonios contradictorios.
+
+**Nota:** El flujo es similar para **Carlos** (abogado junior profesional), con diferencias en cuotas (50 casos/día vs 10) y acceso a exportación PDF profesional.
 
 ---
 
@@ -22,7 +24,7 @@ Usa **PEER-LEGAL-AI** para analizar un caso práctico que incluye texto y video 
 | **Momento 2 — Procesamiento del texto** | PEER-LEGAL-AI analiza el texto usando NLP para identificar hechos, partes involucradas y términos jurídicos relevantes. | (Automático) | Se genera un **resumen del caso** con lista de elementos clave: hechos cronológicos, partes, área legal, conceptos jurídicos identificados. |
 | **Momento 3 — Procesamiento del material visual** | PEER-LEGAL-AI analiza la evidencia visual usando GPT-4 Vision para identificar elementos legalmente relevantes. | (Automático) | Se genera análisis visual con: elementos detectados, eventos clave, detalles jurídicamente significativos. |
 | **Momento 4 — Conexión con jurisprudencia** | El sistema busca en bases de datos abiertas los precedentes legales más similares al caso de María. | (Automático) | Se muestran **2–3 sentencias o precedentes** con breve explicación de su relevancia y similitud con el caso actual. |
-| **Momento 5 — Generación de líneas argumentales** | PEER-LEGAL-AI propone 3 posibles líneas de defensa basadas en los hechos extraídos y la jurisprudencia encontrada. | El usuario revisa las opciones generadas. | Se presentan **3 líneas de defensa** con fortalezas, debilidades y nivel de viabilidad estimado. |
+| **Momento 5 — Generación de líneas argumentales** | PEER-LEGAL-AI propone 2-3 posibles líneas de defensa basadas en los hechos extraídos y la jurisprudencia encontrada. | El usuario revisa las opciones generadas. | Se presentan **2-3 líneas de defensa** con fortalezas, debilidades y nivel de viabilidad estimado. |
 | **Momento 6 — Revisión y feedback del usuario** | María revisa el resultado completo, selecciona la línea más prometedora y da retroalimentación sobre la utilidad. | Escoge una línea preferida y califica la utilidad (1-5 estrellas). | El sistema registra la elección y feedback para mejorar futuras recomendaciones. |
 
 ---
@@ -56,12 +58,12 @@ Usa **PEER-LEGAL-AI** para analizar un caso práctico que incluye texto y video 
         │
         ▼
 [Momento 5: Líneas argumentales sugeridas]
-→ Generación de 3 posibles líneas de defensa
+→ Generación de 2-3 posibles líneas de defensa
 → Cada línea incluye: argumento principal, fortalezas, debilidades
         │
         ▼
 [Momento 6: Revisión y retroalimentación]
-→ Usuario revisa las 3 líneas argumentales
+→ Usuario revisa las 2-3 líneas argumentales
 → Selecciona su preferida
 → Califica la utilidad del análisis (1-5 estrellas)
         │

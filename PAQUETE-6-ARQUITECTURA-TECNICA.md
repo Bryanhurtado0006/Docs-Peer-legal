@@ -20,6 +20,7 @@ Documentar la **arquitectura técnica del sistema**, especialmente la implementa
 │         BACKEND (Laravel 11)                    │
 │  ┌─────────────────────────────────────────┐   │
 │  │  Controllers:                           │   │
+│  │  - AuthController (roles/permisos)     │   │
 │  │  - CaseController                       │   │
 │  │  - AnalysisController                   │   │
 │  │  - JurisprudenceController              │   │

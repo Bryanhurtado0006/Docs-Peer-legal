@@ -82,7 +82,7 @@ Desarrollar un **prototipo funcional** que integre el análisis de texto y evide
 
 1. **Identificar** los elementos legales clave del caso.
 2. **Relacionarlos** con jurisprudencia relevante.
-3. **Generar** 3 posibles líneas argumentales como base para la defensa.
+3. **Generar** 2-3 posibles líneas argumentales como base para la defensa.
 
 **El propósito del MVP es acelerar la preparación inicial de un caso**, brindando un punto de partida confiable y claro para el análisis jurídico.
 
