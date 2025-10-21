@@ -16,6 +16,7 @@ Este repositorio contiene la documentación del MVP de PEER-LEGAL-AI desarrollad
 - **PAQUETE-4-REQUERIMIENTOS-NO-FUNCIONALES.md** - NFRs, restricciones y checklist de aceptación
 - **PAQUETE-5-RIESGOS-ETICA-LEGAL.md** - Riesgos, mitigaciones, disclaimer legal y controles de uso
 - **PAQUETE-6-ARQUITECTURA-TECNICA.md** - Arquitectura detallada: Agentes A2A, MCP, stack tecnológico
+- **PAQUETE-7-HISTORIAS-USUARIO.md** - Historias de usuario organizadas por épicas (19 HUs principales)
 
 ### 📁 Directorios Especiales
 
