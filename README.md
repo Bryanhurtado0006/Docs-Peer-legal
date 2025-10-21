@@ -17,6 +17,10 @@ Este repositorio contiene la documentación del MVP de PEER-LEGAL-AI desarrollad
 - **PAQUETE-5-RIESGOS-ETICA-LEGAL.md** - Riesgos, mitigaciones, disclaimer legal y controles de uso
 - **PAQUETE-6-ARQUITECTURA-TECNICA.md** - Arquitectura detallada: Agentes A2A, MCP, stack tecnológico
 
+### 📁 Directorio Especial
+
+- **📐 AT-Arquitectura-Tecnica-MVP/** - Diagrama visual del flujo técnico completo (Frontend → Backend → Agentes A2A → MCP → Base de Datos). Incluye documentación detallada de la comunicación entre componentes y el stack tecnológico del MVP.
+
 ---
 
 ## 🎯 Descripción Rápida
