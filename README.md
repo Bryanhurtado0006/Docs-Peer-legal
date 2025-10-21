@@ -17,9 +17,11 @@ Este repositorio contiene la documentación del MVP de PEER-LEGAL-AI desarrollad
 - **PAQUETE-5-RIESGOS-ETICA-LEGAL.md** - Riesgos, mitigaciones, disclaimer legal y controles de uso
 - **PAQUETE-6-ARQUITECTURA-TECNICA.md** - Arquitectura detallada: Agentes A2A, MCP, stack tecnológico
 
-### 📁 Directorio Especial
+### 📁 Directorios Especiales
 
 - **📐 AT-Arquitectura-Tecnica-MVP/** - Diagrama visual del flujo técnico completo (Frontend → Backend → Agentes A2A → MCP → Base de Datos). Incluye documentación detallada de la comunicación entre componentes y el stack tecnológico del MVP.
+
+- **🚀 ROAD-MAP/** - Roadmap de producto con evolución de autonomía del asistente IA (L3 → L5+). Incluye 4 fases de desarrollo desde MVP hasta expansión regional con métricas de éxito por fase.
 
 ---
 
@@ -49,6 +51,8 @@ Plataforma de IA que reduce de **14 horas a 10 minutos** la preparación inicial
 
 ## 👨‍💻 Equipo
 
-- **BA:** Definición de requerimientos
-- **QA:** Validación de coherencia legal
-- **Dev:** Implementación técnica
+Levantamiento de Ideas 
+
+- **DIEGO ALEJANDRO PALOMA DIAZ:** Definición de requerimientos, mokups Frontend 
+- **BRYAN ANDRES HURTADO** Validación de coherencia Backend
+
