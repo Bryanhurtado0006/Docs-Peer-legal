@@ -25,6 +25,8 @@ Este repositorio contiene la documentación del MVP de PEER-LEGAL-AI desarrollad
 
 - **🎨 Mockups/** - Prototipos de interfaz UI/UX generados con Vercel v0. Incluye mockups de las 7 pantallas principales del MVP basados en análisis del reto y casos de uso de María y Carlos.
 
+- **🗄️ Database-Desing/** - Diagrama Entidad-Relación (ERD) de la base de datos. Muestra estructura de tablas, relaciones y diseño para soportar roles, agentes A2A, búsqueda semántica con pgvector y almacenamiento de análisis.
+
 ---
 
 ## 🎯 Descripción Rápida
