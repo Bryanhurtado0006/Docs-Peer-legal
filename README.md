@@ -59,5 +59,4 @@ Plataforma de IA que reduce de **14 horas a 10 minutos** la preparación inicial
 Levantamiento de Ideas 
 
 - **DIEGO ALEJANDRO PALOMA DIAZ:** Validación de coherencia Backend
-- **BRYAN ANDRES HURTADO** Definición de requerimientos, mokups Frontend 
-
+- **BRYAN ANDRES HURTADO:** Definición de requerimientos, mokups Frontend 
